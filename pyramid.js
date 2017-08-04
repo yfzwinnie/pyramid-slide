@@ -27,7 +27,7 @@ function drawPyramid() {
   for (var i = 1; i <= height; i++) {
     var row = '<p>';
     for (var j = 1; j <= (height-i+1); j++) {
-      row += String.fromCharCode(160);
+      row += '&nbsp;';
     }
     for (var k = 1; k <= i+1; k++) {
       row += symInputValue;
