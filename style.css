@@ -4,24 +4,27 @@
 
 h1 {
   text-align: center;
-  margin: 20px 15% 0 15%;
+  margin: 20px 10% 0 10%;
   padding: 30px 60px;
   background-color: #af4983;
   color: #fff;
 }
 
 p {
-  margin: 0;
-  text-align: right;
+  margin: 0 20% 0 25%;
+  font-family:monospace;
   color: #af4983;
-  padding-right: 30%;
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+label {
+  text-align: center;
 }
 
 .wrapper {
   border-color: #af4983;
   border-style: solid;
-  margin: 20px 20%;
+  margin: 20px 15%;
 }
 
 #customize {
@@ -36,5 +39,20 @@ p {
 
 .custom-container {
   display: inline-block;
-  margin: 0 5%;
+  margin: 0 100px 0 19%;
+  font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 480px) {
+  p{
+    font-size: 1em;
+    margin: 0 0;
+  }
+
+  .custom-container {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 0.9em;
+  }
 }
