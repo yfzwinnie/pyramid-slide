@@ -1,0 +1,40 @@
+*{
+  font-family: 'Zilla Slab', serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 15% 0 15%;
+  padding: 30px 60px;
+  background-color: #af4983;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  text-align: right;
+  color: #af4983;
+  padding-right: 40%;
+  font-size: 1.5em;
+}
+
+.wrapper {
+  border-color: #af4983;
+  border-style: solid;
+  margin: 20px 20%;
+}
+
+#customize {
+  background-color: #d6d6d6;
+  padding: 10px;
+}
+
+#container {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.custom-container {
+  display: inline-block;
+  margin: 0 5%;
+}

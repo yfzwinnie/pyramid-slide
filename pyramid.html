@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pyramid Slider</title>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Pyramid Slide</h1>
+  </header>
+  <div class="wrapper">
+    <div id="customize">
+      <div class="custom-container">
+        <label>Brick Symbol:</label>
+        <select id="symbol">
+          <option value="#">#</option>
+          <option value="@">@</option>
+          <option value="X">X</option>
+          <option value="$">$</option>
+        </select>
+      </div>
+
+      <div class="custom-container">
+          <label>How high?</label>
+          <input class="bar" type="range" id="rangeinput" min="1" max="20" value="1">
+          <output id="rangevalue">1</output>
+      </div>
+    </div>
+    <div id="pyramid">
+    </div>
+  </div>
+  <script src="pyramid.js"></script>
+
+</body>
+</html>
